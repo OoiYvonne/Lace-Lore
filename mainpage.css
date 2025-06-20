@@ -1,0 +1,501 @@
+body {
+  font-family: "lato", sans-serif;
+  text-align: center;
+}
+.top-bar, .nav-bar, .footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid #ccc;
+  margin: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.top-img{
+   position:center;
+   background-color:rgb(236, 218, 209);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.AButton {
+  font-size: 15px;
+    border-bottom: 2px solid rgb(119, 15, 79);
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+
+
+}
+
+
+.search {
+ display: flex;
+ align-items: center;
+ background-color: rgb(146, 104, 104);
+ padding: 10px 20px;
+ border-radius: 10px;
+}
+.searchInput {
+border: none;
+background-color: transparent;
+}
+
+
+
+
+
+
+
+
+.searchInput::placeholder {
+color: lightgray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.nav-bar {
+  display: flex;
+align-items: center;
+justify-content: center;
+}
+ 
+.menuItem  {
+ margin-right: 70px;
+ border-bottom: 2px solid rgb(19, 132, 152);
+ cursor: pointer;
+ color: rgb(198, 91, 141);
+ font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.introduction  {
+ font-size: 25px;
+ font-weight: 600;
+ font-family:Georgia, 'Times New Roman', Times, serif;
+ margin-top: 4%;
+}
+
+
+
+
+.intro1 {
+margin-left:60%;
+margin-right:5%;
+position:absolute;
+top:70%;
+
+
+}
+
+
+
+
+.intro2 {
+margin-right:55%;
+margin-left:7%;
+position:absolute;
+top:158%;
+
+
+}
+
+
+
+
+.intro3 {
+margin-left:53%;
+margin-right:5%;
+
+
+position:absolute;
+top:255%;
+
+
+}
+
+
+
+
+.selfie{
+margin-right:50%;
+margin-left:10%;
+border-radius: 10%;
+margin-bottom:8%;
+}
+
+
+
+
+
+
+.tablet{
+margin-left:50%;
+
+
+border-color: #000000;
+border-radius: 10%;
+margin-bottom:8%;
+}
+
+
+
+
+.dress2{
+margin-right:50%;
+border-color: #000000;
+border-radius: 10%;
+margin-bottom:12%;
+}
+
+
+
+
+.productDetails {
+width:90%;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+.productTitle {
+font-size: 17px;
+font-weight: 700;
+}
+
+
+
+
+
+
+
+
+.productDesc {
+margin-top:10px;
+font-style: 8px;
+color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.productPrice{
+font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+display: flex;
+
+
+}
+
+
+.box {
+  border: 1px solid #000000;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footerLeft {
+flex: 3;
+padding: 20px;
+display: flex;
+
+
+justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.fInput {
+padding: 5px;
+font-weight: 900;
+font-size: 14px;
+
+
+}
+.fButton {
+padding: 5px;
+background-color: black;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.copyright{
+font-weight: 900;
+font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footermiddle {
+flex: 3;
+padding: 20px;
+display: flex;
+
+
+justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.location{
+font-weight: 400;
+font-size: 13px;
+}
+
+
+
+
+
+
+
+
+.fIcons{
+position: center;
+}
+
+
+
+
+
+
+
+
+.fIcon{
+width: 20px;
+height: 20px;
+margin-right: 10px;
+}
+.footerright {
+flex: 3;
+padding: 20px;
+
+
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+.fMenuTitle {
+position:center;
+font-size: 25px;
+}
+
+
+
+
+
+
+
+
+.fList {
+padding: 0px;
+list-style: none;
+}
+
+
+
+
+
+
+
+
+.fListItem {
+margin-bottom: 10px;
+color: gray;
+cursor: pointer;
+}
